@@ -151,7 +151,7 @@
             {
                 if (spot == ' ') return false;
             }
-            return true;
+            return !CheckWin();
         }
     }
 }
